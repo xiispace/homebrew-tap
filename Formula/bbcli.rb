@@ -1,28 +1,28 @@
 class Bbcli < Formula
   desc "CLI for a Bytebase server, built to be driven by coding agents"
   homepage "https://github.com/xiispace/bbcli"
-  version "2026.10.12"
+  version "2026.11.24"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/xiispace/bbcli/releases/download/v2026.10.12/bbcli-aarch64-apple-darwin.tar.gz"
-      sha256 "573a06643319aff07b65c0a6335c1effa44b7f580ac15623bca4c8ed894924c2"
+      url "https://github.com/xiispace/bbcli/releases/download/v2026.11.24/bbcli-aarch64-apple-darwin.tar.gz"
+      sha256 "85ba87fbabb72c54b51cc39065d8ceea4c4b51faf5b512ee801dddee0232d475"
     end
     on_intel do
-      url "https://github.com/xiispace/bbcli/releases/download/v2026.10.12/bbcli-x86_64-apple-darwin.tar.gz"
-      sha256 "8694c0377d3489e93370319e9e8c4b0954f2c578d85721f3b15cc112ee189832"
+      url "https://github.com/xiispace/bbcli/releases/download/v2026.11.24/bbcli-x86_64-apple-darwin.tar.gz"
+      sha256 "268eb60d8487a7b5a5e961e27a2445e32aecb120ea6bf3eec572a1eaf5329655"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/xiispace/bbcli/releases/download/v2026.10.12/bbcli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5fca6ef01b81608307255f8296906d8a697c11c5962934c0fb168dac48c60770"
+      url "https://github.com/xiispace/bbcli/releases/download/v2026.11.24/bbcli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "60b47853e01f2619b1b52d5bf70b5a079bc5c532680098352ec5112e92a5f161"
     end
     on_intel do
-      url "https://github.com/xiispace/bbcli/releases/download/v2026.10.12/bbcli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6f4221a18e5fd2f40fea44cf26c7163dd34224378d1245b96170571e2e3ac19f"
+      url "https://github.com/xiispace/bbcli/releases/download/v2026.11.24/bbcli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "996c704adc8998c25b8a042c0fe95163368d704bd74c7528636c7fe192717368"
     end
   end
 
